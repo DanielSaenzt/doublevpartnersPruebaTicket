@@ -8,6 +8,7 @@ Java 17 (JDK) o superior.
 Docker (para ejecutar la base de datos MySQL como un contenedor).
 # Configuración de la Base de Datos
 Antes de ejecutar la aplicación, asegúrate de que Docker esté instalado y en funcionamiento en tu sistema. A continuación, puedes utilizar el siguiente comando para crear y ejecutar un contenedor Docker con una instancia de MySQL:
+
 • docker run -d -p 3306:3306 --name mysql-server -e MYSQL_ROOT_PASSWORD=admin -e MYSQL_DATABASE=ticket_system mysql:latest
 Esto creará y ejecutará un contenedor Docker con una base de datos MySQL. La base de datos se llamará "ticket_system" y tendrás acceso con el usuario "root" y la contraseña "admin".
 # Endpoints API
