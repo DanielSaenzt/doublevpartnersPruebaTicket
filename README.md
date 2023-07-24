@@ -1,4 +1,4 @@
-# doublevpartnersPruebaTicket
+# Doublevpartners Prueba - Ticket
 Este proyecto es una API desarrollada en Spring Boot como parte de una prueba técnica. Permite realizar ciertas operaciones relacionadas con tickets y usuarios. El proyecto utiliza una base de datos MySQL para almacenar los datos.
 
 # Requisitos
